@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/karta3"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta7"
+        app:layout_constraintEnd_toStartOf="@+id/karta4"
+        app:layout_constraintStart_toEndOf="@+id/karta2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta7"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta11"
+        app:layout_constraintEnd_toStartOf="@+id/karta8"
+        app:layout_constraintStart_toEndOf="@+id/karta6"
+        app:layout_constraintTop_toBottomOf="@+id/karta3"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta8"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/karta7"
+        app:layout_constraintTop_toBottomOf="@+id/karta4"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta9"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta13"
+        app:layout_constraintEnd_toStartOf="@+id/karta10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/karta5"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta12"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/karta11"
+        app:layout_constraintTop_toBottomOf="@+id/karta8"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta11"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta15"
+        app:layout_constraintEnd_toStartOf="@+id/karta12"
+        app:layout_constraintStart_toEndOf="@+id/karta10"
+        app:layout_constraintTop_toBottomOf="@+id/karta7"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta10"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta14"
+        app:layout_constraintEnd_toStartOf="@+id/karta11"
+        app:layout_constraintStart_toEndOf="@+id/karta9"
+        app:layout_constraintTop_toBottomOf="@+id/karta6"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta13"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="205dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/karta14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/karta9"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta14"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="205dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/karta15"
+        app:layout_constraintStart_toEndOf="@+id/karta13"
+        app:layout_constraintTop_toBottomOf="@+id/karta10"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta15"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="205dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/karta16"
+        app:layout_constraintStart_toEndOf="@+id/karta14"
+        app:layout_constraintTop_toBottomOf="@+id/karta11"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta16"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="205dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/karta15"
+        app:layout_constraintTop_toBottomOf="@+id/karta12"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta1"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta5"
+        app:layout_constraintEnd_toStartOf="@+id/karta2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta4"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="25dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/karta3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta5"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta9"
+        app:layout_constraintEnd_toStartOf="@+id/karta6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/karta1"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta2"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta6"
+        app:layout_constraintEnd_toStartOf="@+id/karta3"
+        app:layout_constraintStart_toEndOf="@+id/karta1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/k000" />
+
+    <ImageButton
+        android:id="@+id/karta6"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/karta10"
+        app:layout_constraintEnd_toStartOf="@+id/karta7"
+        app:layout_constraintStart_toEndOf="@+id/karta5"
+        app:layout_constraintTop_toBottomOf="@+id/karta2"
+        app:srcCompat="@drawable/k000" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="180dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="370dp"
+        android:padding="0dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/moves"
+        android:layout_width="180dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="5dp"
+        android:padding="0dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/score"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:text="Restart game"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="585dp"
+        android:text="Back to main menu"
+        android:textColor="#FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
